@@ -1,0 +1,429 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+--primary-color: #FF42A5;
+    
+}
+header{
+ padding: 2% 10%;
+ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+nav img{
+width:86px;
+margin-right:20px;
+}
+nav h3{
+color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+
+}
+.title{
+display: flex;
+align-items: center;    
+}
+
+nav, .footer, .G-color{
+color: var(--primary-color); 
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;    
+}
+
+ nav ul{
+display: flex;
+}
+
+ul li{
+list-style-type: none;
+margin-right:30px;
+}
+
+ul li a{
+text-decoration: none;
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+}
+
+ a .fa{
+color:#F61C0D;
+
+}
+
+.icon-text{
+ display: flex; 
+ align-items: center;
+ justify-content: center; 
+ width: 250px;
+ padding: 8px;
+ gap: 10px;  
+ border-radius: 8px;
+ background: rgba(11, 2, 35, 0.10); 
+ margin-top: -5px;
+}
+
+.icon-text a{
+text-decoration: none;
+}
+/* ----------Banner-------- */
+.banner{
+padding: 2% 10%;
+margin-top: 30px;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap:3rem;
+}
+
+.banner-title{
+color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+}
+.heading{
+font-size: 95px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 20px;
+}
+
+p .icon{
+color: red;
+padding: 5px;
+font-size: 24px;
+}
+
+p .user{
+font-size:24px;
+padding: 5px;
+}
+
+.banner-content p{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+
+.btn-hero{
+margin:40px 0;
+}
+
+.btn-hero a{
+ background-color:var(--primary-color);
+text-decoration: none;
+color: #fff;
+padding: 8px 30px;
+font-size: 20px;
+font-weight: 600;
+border-radius: 48px;
+}
+
+.btn-hero .btn-color{
+background: #4EC5F7;
+}
+
+.img-content img{
+width: 36rem;    
+}
+
+/* -----------main---------- */ 
+main{
+width: 100%;
+padding: 0 10%;
+}
+.gammer{
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin-top: 9rem;  
+}
+
+.gammer-image img{
+width:34rem;
+}
+
+.gammer-content{
+text-align: right;
+}
+
+.gammer-title{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+margin-bottom:1.5rem;
+}
+
+.gammer-description{
+font-size:18px;
+color:#534C64;
+}
+
+small{
+color: #534C64;
+font-size: 20px;
+}
+
+h4{
+color: #534C64;
+font-size: 24px;
+font-weight: 500;
+}
+/* -------------------Online game and Fun-----------*/
+.online-row{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-content: center;
+align-content: center;
+gap: 10px;
+
+}
+
+.online-title{
+font-size: 3rem;
+font-weight:700;
+color:#0B0223;
+text-align: center;
+margin-top: 6rem;
+}
+.online-title-color{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+}
+
+.description{
+color: #534C64;
+font-size: 18px;
+text-align: center;
+margin-bottom: 1rem;
+}
+.online-image{
+width:19rem;
+margin-top: 30px;
+}
+
+.online-image img{
+width: 100%;
+}
+
+.image-description{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+#players-game{
+position: relative;
+}
+
+.circle-button{ 
+position: absolute;
+top: 35%;
+left: 40%;
+font-size: 48px;
+text-align: center;
+color:#fff;
+cursor: pointer;
+}
+
+.circle-button small{
+font-size: 20px;
+color: var(--primary-color);
+}
+/* -----------Play Instantly----------- */
+.nice-game{
+padding: 6rem 0;
+display: flex;
+align-items: center;
+gap: 5rem;
+}
+.play-game{
+ text-align: right;
+}
+.play-game-img{    
+    position: relative;
+}
+.add-pic{
+width:20rem;
+position: absolute;
+bottom:-8.2rem;
+left:-5rem;
+}
+
+.game-title{
+font-size: 48px;
+font-weight: 700;
+}
+.game-description{
+color: #534C64;
+font-size: 18px;
+
+}
+/* -------------Small-images------------- */
+
+
+.image{
+    margin:6rem;
+   display:flex;
+  flex-wrap:wrap;
+    gap: 3rem;
+   
+   
+}
+.information-images{
+    display: flex; 
+    gap: 1rem;
+
+}
+.information-images p{
+    font-size:20px;
+    font-weight: 600;
+    color:#0B0223;
+}
+/* --------------------------footer----------- */
+footer{
+    background:black;
+    padding: 10px 0 100px 0;
+}
+.footer{
+color: #fff;
+display: flex;
+justify-content: center;
+}
+.footer h3{
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+
+}
+.content{
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.font-icon{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+
+}
+.condition{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    gap: 30px;
+}
+.small{
+    text-align: center;
+    color:#fff;
+    font-size:1rem;
+    margin-top:3rem;
+    color: rgba(255, 255, 255, 0.60);
+     }
+
+
+/* ----------Mobile Device----- */
+@media (max-width:576px){
+  nav,ul,.gammer, .nice-game{
+    flex-direction: column;    
+    gap: 1rem;
+    align-items: center;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    
+  }
+  .gammer-image img{
+    padding: 8%;
+  }
+  .gammer{
+    margin-top: 30px;
+  }
+  .play-game-img img{
+    padding: 0 5%;
+  }
+
+  .gammer-content, .play-game{
+    text-align: center;    
+}
+.online-row{
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+
+/* --------tablet Device--------- */
+@media (min-width:576px) and (max-width:960px){
+  
+        nav,ul,.gammer, .nice-game{
+          flex-direction: column;    
+          gap: 1rem;
+          align-items: center;
+        }
+        .banner{
+          flex-direction: column-reverse;
+          
+        }
+        .gammer-image img{
+          padding: 8%;
+        }
+        .gammer{
+          margin-top: 30px;
+        }
+        .play-game-img img{
+          padding: 0 5%;
+        }
+      
+        .gammer-content, .play-game{
+          text-align: center;    
+      }
+      .online-row{
+          grid-template-columns: repeat(2, 1fr);
+         
+      }
+      .image{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+      }
+      
+      }
+
+
+
+
+ 
+
+  
+  
+   
